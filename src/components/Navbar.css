@@ -1,0 +1,15 @@
+.navbar {
+	display: flex;
+	justify-content: space-evenly;
+	font-size: 9px;
+}
+
+.links {
+	display: flex;
+	margin-left: 65%;
+}
+
+.links h1 {
+	display: flex;
+	padding: 9px;
+}
