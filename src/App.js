@@ -1,15 +1,22 @@
 import React from 'react';
 import Navbar from './components/Navbar';
-import Header from './components/Header';
+import About from './components/About';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
 import SkillsBar from './components/SkillsBar';
+import ScrollToTop from './components/ScrollToTop';
+import Home from './components/Home';
 
 function App() {
 	return (
-		<div className="App">
+		<Router>
+			<ScrollToTop />
 			<Navbar />
-			<Header />
-			<SkillsBar />
-		</div>
+			<Switch>
+				<Route path="/" exact component={Home} />
+			</Switch>
+		</Router>
 	);
 }
 

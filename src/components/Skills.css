@@ -20,7 +20,7 @@
 	transition: 1s ease 0.3s;
 }
 
-.progress-bars {
+/* .progress-bars {
 	display: flex;
 	border: 1px solid black;
 	width: 40%;
@@ -32,7 +32,7 @@
 .progress-bars h1 {
 	font-size: 1.3rem;
 	padding: 6px;
-}
+} */
 
 .bar {
 	display: flex;
@@ -43,4 +43,8 @@
 
 .bar span {
 	padding: 1rem;
+}
+
+.skills > .active {
+	border-bottom: 1px solid black;
 }

@@ -2,14 +2,27 @@
 	display: flex;
 	justify-content: space-evenly;
 	font-size: 9px;
+	position: sticky;
+	top: 0;
+	z-index: 10;
+	background-color: black;
 }
 
 .links {
 	display: flex;
 	margin-left: 65%;
+	color: lightblue;
 }
 
 .links h1 {
 	display: flex;
 	padding: 9px;
+}
+
+.links > .active {
+	border-bottom: 1px solid black;
+}
+
+.steve {
+	color: lightblue;
 }
