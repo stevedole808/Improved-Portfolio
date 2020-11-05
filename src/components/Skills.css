@@ -48,3 +48,13 @@
 .skills > .active {
 	border-bottom: 1px solid black;
 }
+
+.skills-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.keywords img {
+	width: 7rem;
+	height: 5rem;
+}

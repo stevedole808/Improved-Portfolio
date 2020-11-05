@@ -1,0 +1,110 @@
+.app {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	margin: 0 auto;
+}
+
+.header {
+	display: flex;
+	justify-content: space-evenly;
+	margin: -1.7rem auto;
+	line-height: 2.2rem;
+}
+
+.top-container {
+	width: 50%;
+	margin: 2rem;
+}
+
+.top-container h1 {
+	font-size: 2.6rem;
+	margin-left: -1.8rem;
+}
+
+.top-container h2 {
+	font-size: 2rem;
+}
+
+.top-container p {
+	font-size: 1.3rem;
+}
+
+.list-1 {
+	list-style-type: none;
+	text-align: left;
+	font-size: 1.4rem;
+}
+
+.list-2 {
+	list-style-type: none;
+	text-align: right;
+	font-size: 1.4rem;
+}
+
+.skills {
+	margin-top: 3rem;
+	text-align: right;
+}
+
+.skills h2 {
+	font-size: 2rem;
+	display: flex;
+	justify-content: center;
+}
+
+.skills-container {
+	display: flex;
+	line-height: 3rem;
+	margin-top: -2rem;
+}
+
+.icons img {
+	width: 12%;
+	height: 12%;
+	padding: 1rem;
+}
+
+.icons {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.descriptions {
+	display: flex;
+	justify-content: space-evenly;
+	margin: -2.5rem -1rem;
+}
+
+.likes {
+	display: flex;
+	flex-direction: column;
+	align-content: left;
+}
+
+.list-3 {
+	list-style-type: none;
+	text-align: left;
+	font-size: 2rem;
+	line-height: 5rem;
+}
+
+.basketball-img {
+	width: 35%;
+	height: 80%;
+}
+
+.bottom {
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 6rem;
+}
+
+.likes h1 {
+	font-size: 2.6rem;
+	margin: 0;
+}
+
+.optimal {
+	margin-top: -2rem;
+}

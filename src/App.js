@@ -7,14 +7,18 @@ import Contact from './components/Contact';
 import SkillsBar from './components/SkillsBar';
 import ScrollToTop from './components/ScrollToTop';
 import Home from './components/Home';
+import AboutMe from './components/AboutMe';
+import AllProjects from './components/AllProjects';
 
 function App() {
 	return (
 		<Router>
-			<ScrollToTop />
 			<Navbar />
 			<Switch>
 				<Route path="/" exact component={Home} />
+				<Route path="/about" component={AboutMe} />
+				<Route path="/contact" component={Contact} />
+				<Route path="/projects" component={AllProjects} />
 			</Switch>
 		</Router>
 	);

@@ -6,6 +6,7 @@
 	top: 0;
 	z-index: 10;
 	background-color: black;
+	height: 2.5rem;
 }
 
 .links {
@@ -17,6 +18,8 @@
 .links h1 {
 	display: flex;
 	padding: 9px;
+	margin: 0;
+	color: lightblue;
 }
 
 .links > .active {

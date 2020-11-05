@@ -7,12 +7,10 @@ import SkillsBar from './SkillsBar';
 
 function Home() {
 	return (
-		<Router>
+		<div>
 			<About />
 			<Projects />
-			<SkillsBar />
-			<Contact />
-		</Router>
+		</div>
 	);
 }
 

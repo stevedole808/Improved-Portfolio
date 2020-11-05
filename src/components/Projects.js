@@ -25,6 +25,11 @@ const useStyles = makeStyles((theme) => ({
 		maxWidth: 345,
 		margin: '5rem auto',
 	},
+	header: {
+		display: 'flex',
+		justifyContent: 'center',
+		fontSize: '1.5rem',
+	},
 }));
 
 function Projects() {
@@ -32,9 +37,10 @@ function Projects() {
 
 	return (
 		<Box id="projects" component="div" className={classes.mainContainer}>
+			<h1 className={classes.header}>SOME OF MY PROJECTS</h1>
 			<Grid container justify="center" alignItems="center">
 				{/* Project 1 */}
-				<Grid item xs={12} sm={8} md={6}>
+				<Grid item xs={12} sm={4} md={4}>
 					<Card className={classes.cardContainer}>
 						<CardActionArea>
 							<CardMedia
@@ -63,7 +69,7 @@ function Projects() {
 					</Card>
 				</Grid>
 				{/* Project 2 */}
-				<Grid item xs={12} sm={8} md={6}>
+				<Grid item xs={12} sm={4} md={4}>
 					<Card className={classes.cardContainer}>
 						<CardActionArea>
 							<CardMedia
@@ -92,7 +98,7 @@ function Projects() {
 					</Card>
 				</Grid>
 				{/* Project 3 */}
-				<Grid item xs={12} sm={8} md={6}>
+				<Grid item xs={12} sm={4} md={4}>
 					<Card className={classes.cardContainer}>
 						<CardActionArea>
 							<CardMedia
@@ -121,7 +127,7 @@ function Projects() {
 					</Card>
 				</Grid>
 				{/* Project 4 */}
-				<Grid item xs={12} sm={8} md={6}>
+				{/* <Grid item xs={12} sm={4} md={4}>
 					<Card className={classes.cardContainer}>
 						<CardActionArea>
 							<CardMedia
@@ -149,8 +155,8 @@ function Projects() {
 						</CardActions>
 					</Card>
 				</Grid>
-				{/* Project 5 */}
-				<Grid item xs={12} sm={8} md={6}>
+				Project 5
+				<Grid item xs={12} sm={4} md={4}>
 					<Card className={classes.cardContainer}>
 						<CardActionArea>
 							<CardMedia
@@ -177,7 +183,7 @@ function Projects() {
 							</Button>
 						</CardActions>
 					</Card>
-				</Grid>
+				</Grid> */}
 			</Grid>
 		</Box>
 	);
